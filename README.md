@@ -54,6 +54,6 @@ Requesting a ride (`POST /api/ride/request`) instantly returns the priced, dispa
 
 ## 💻 Interface Screenshots
 
-Here is what the invoice generation system looks like in action:
+Here is dashbaord for find taxi:
 
 ![Find Taxi Dashboard](http://utmlink.tech/screenshot/find-taxi.png)
