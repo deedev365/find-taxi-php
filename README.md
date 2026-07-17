@@ -6,6 +6,12 @@ A JSON-backed PHP taxi dispatch API with a live control-room dashboard. The syst
 
 Everything runs over a REST API backed by plain JSON files — no database required. Drivers, passengers, rides, payments, and ratings are all persisted as JSON under `storage/`, and every read/write goes through a thin `JsonStorage` layer. The bundled **Find Taxi** dashboard (`index.php`) visualizes the fleet on a live "highway radar" and lets you drive a ride through its entire lifecycle from the browser — request it, assign a driver, pick up, complete, and rate — watching the API respond in real time.
 
+## 💻 Interface Screenshots
+
+Here is dashbaord for find taxi:
+
+![Find Taxi Dashboard](http://utmlink.tech/screenshot/find-taxi.png)
+
 ## 🛠️ Tech Stack
 
 **Language:** PHP 7.4 / PHP 8.x.
@@ -51,9 +57,3 @@ Requesting a ride (`POST /api/ride/request`) instantly returns the priced, dispa
   }
 }
 ```
-
-## 💻 Interface Screenshots
-
-Here is dashbaord for find taxi:
-
-![Find Taxi Dashboard](http://utmlink.tech/screenshot/find-taxi.png)
